@@ -35,7 +35,7 @@ function onEdit(e) {
 
   try {
     // Make the request to the specified API endpoint
-    var response = UrlFetchApp.fetch("https://api.csp-co.com/store/update", options);
+    var response = UrlFetchApp.fetch("#Url server REST API", options);
 
     // Log the response from the API to the Logger
     Logger.log(response.getContentText());
